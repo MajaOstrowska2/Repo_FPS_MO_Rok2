@@ -1316,3 +1316,62 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.01-19.24.39:661][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
 [2023.04.01-19.24.39:829][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_9
 [2023.04.01-19.24.43:036][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.04.01-19.25.35:835][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.04.01-19.27.02:818][703]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_FPS_Character.BP_FPS_Character
+[2023.04.01-19.27.02:819][703]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.01-19.27.03:810][703]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.04.01-19.27.05:293][713]LogViewport: Scene viewport resized to 1141x877, mode Windowed.
+[2023.04.01-19.27.22:204][785]LogSlate: Window 'BP_FPS_Character' being destroyed
+[2023.04.01-19.27.22:327][785]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2023.04.01-19.27.22:327][785]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.01-19.27.23:689][801]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.04.01-19.27.23:693][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.04.01-19.27.23:694][801]PIE: New page: PIE session: MainMap (1 kwi 2023, 23:27:23)
+[2023.04.01-19.27.23:694][801]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMap
+[2023.04.01-19.27.23:695][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001799s)
+[2023.04.01-19.27.23:695][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMap.MainMap to /Game/Maps/UEDPIE_0_MainMap.MainMap (0.001826s)
+[2023.04.01-19.27.23:696][801]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.04.01-19.27.23:696][801]LogAIModule: Creating AISystem for world MainMap
+[2023.04.01-19.27.23:696][801]LogPlayLevel: PIE: World Init took: (0.000673s)
+[2023.04.01-19.27.23:777][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.04.01-19.27.23:778][801]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.04.01-19.27.23:778][801]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.01-19.27.23:778][801]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.01-19.27.23:778][801]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.01-19.27.23:778][801]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.01-19.27.23:778][801]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.01-19.27.23:778][801]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.04.01-19.27.23:778][801]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.01-19.27.23:778][801]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.01-19.27.23:779][801]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.04.01-19.27.23:779][801]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.04.01-19.27.23:779][801]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.04.01-19.27.23:781][801]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.04.01-19.27.23:795][801]LogAudioMixer: Display: Using Audio Hardware Device Słuchawki (Philips UH202( Stereo ))
+[2023.04.01-19.27.23:795][801]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.01-19.27.23:795][801]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.01-19.27.23:795][801]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.01-19.27.23:796][801]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.04.01-19.27.23:796][801]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.04.01-19.27.23:797][801]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.04.01-19.27.23:797][801]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.04.01-19.27.23:797][801]LogInit: FAudioDevice initialized.
+[2023.04.01-19.27.23:797][801]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMap'.
+[2023.04.01-19.27.23:800][801]LogLoad: Game class is 'BP_FPS_C'
+[2023.04.01-19.27.23:801][801]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2023.04.01-21.27.23
+[2023.04.01-19.27.23:801][801]LogWorld: Bringing up level for play took: 0.000433
+[2023.04.01-19.27.23:802][801]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.04.01-19.27.23:804][801]PIE: Server logged in
+[2023.04.01-19.27.23:804][801]PIE: Play in editor total start time 0,111 seconds.
+[2023.04.01-19.27.45:926][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.01-19.27.45:926][932]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMap
+[2023.04.01-19.27.45:926][932]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2023.04.01-19.27.45:926][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.01-19.27.45:952][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.04.01-19.27.45:957][932]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.01-19.27.45:981][932]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.04.01-19.27.45:981][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.01-19.27.45:982][932]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.04.01-19.27.45:986][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.01-19.27.45:988][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.04.01-19.27.46:018][933]LogPlayLevel: Display: Destroying online subsystem :Context_11
