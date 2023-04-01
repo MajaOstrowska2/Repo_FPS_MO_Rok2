@@ -5,7 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Maps/MainMap.umap"
+				"C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Maps/MainMap.umap",
+				"C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Blueprints/BP_FPS_Character.uasset",
+				"C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Blueprints/BP_FPS.uasset",
+				"C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/ModularBuildingSet/Demo_Scene1.umap"
 			]
 		}
 	]
