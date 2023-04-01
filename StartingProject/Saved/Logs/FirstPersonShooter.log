@@ -1100,3 +1100,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.01-18.55.55:037][309]AssetCheck: New page: Asset Save: MainMap
 [2023.04.01-18.55.55:037][309]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainMap.MainMap
 [2023.04.01-18.55.57:877][408]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.04.01-18.57.20:474][691]LogDerivedDataCache: C:/Users/majao/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.035 and deleted 0 files with total size 0 MiB. Scanned 8151 files in 2045 folders with total size 2474 MiB.
+[2023.04.01-18.58.18:208][ 10]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.04.01-18.58.23:725][253]LogSlate: Window 'Project Settings' being destroyed
+[2023.04.01-18.58.23:792][253]LogSlate: Window 'Project Settings' being destroyed
+[2023.04.01-19.00.42:759][747]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2023.04.01-19.00.42:759][747]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Developers/majao/Collections/' because it could not be accessed. Aborting watch request...
+[2023.04.01-19.00.42:825][748]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Saved/Collections/' because it could not be accessed. Aborting watch request...
