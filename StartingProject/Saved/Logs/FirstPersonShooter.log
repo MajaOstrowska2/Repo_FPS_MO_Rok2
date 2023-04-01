@@ -1107,3 +1107,41 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.04.01-19.00.42:759][747]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Collections/' because it could not be accessed. Aborting watch request...
 [2023.04.01-19.00.42:759][747]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Content/Developers/majao/Collections/' because it could not be accessed. Aborting watch request...
 [2023.04.01-19.00.42:825][748]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/majao/Documents/Unreal Projects/FPS_R2/Repo_FPS_MO_Rok2/StartingProject/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2023.04.01-19.02.19:238][305]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.04.01-19.04.08:983][823]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Słuchawki (Philips UH202( Stereo )), InstanceID=1
+[2023.04.01-19.04.09:249][823]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=18072
+[2023.04.01-19.04.09:583][824]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{d9196c0c-fe1c-432c-9487-a6427936b031}, Name=Słuchawki (Philips UH202( Stereo ))), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=21.78
+[2023.04.01-19.04.09:583][824]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.04.01-19.04.09:585][824]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: ================================================
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Total job queries 113, among them cache hits 7 (6.19%)
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Tracking 103 distinct input hashes that result in 87 distinct outputs (84.47%)
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: RAM used: 0.35 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.02%
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Shaders Compiled: 103
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Jobs assigned 106, completed 103 (97.17%)
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Average time worker was idle: 52.62 s
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Time job spent in pending queue: average 1.71 s, longest 16.91 s
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Job execution time: average 11.24 s, max 39.09 s
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Job life time (pending + execution): average 12.99 s, max 39.17
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 43.86 s
+[2023.04.01-19.05.50:576][144]LogShaderCompilers: Display: Jobs were issued in 66 batches (only local compilation was used), average 1.61 jobs/batch
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: Average processing rate: 2.35 jobs/sec
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: Total thread time: 224.99 s
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: Total thread preprocess time: 6.01 s
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: Percentage time preprocessing: 2.67%
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: Effective parallelization: 5.13 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 10.11 sec, max 10.11 sec, min 10.11 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 8.99 sec, max 8.99 sec, min 8.99 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                   FCloudRenderViewPS001false (compiled    1 times, average 6.97 sec, max 6.97 sec, min 6.97 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 6.66 sec, max 6.66 sec, min 6.66 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 6.55 sec, max 11.97 sec, min 3.12 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 49.51% of total time (compiled   17 times, average 6.55 sec, max 11.97 sec, min 3.12 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.26% of total time (compiled   11 times, average 1.08 sec, max 1.40 sec, min 0.79 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false - 4.49% of total time (compiled    1 times, average 10.11 sec, max 10.11 sec, min 10.11 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.46% of total time (compiled   11 times, average 0.91 sec, max 1.28 sec, min 0.61 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false - 4.00% of total time (compiled    1 times, average 8.99 sec, max 8.99 sec, min 8.99 sec)
+[2023.04.01-19.05.50:577][144]LogShaderCompilers: Display: ================================================
